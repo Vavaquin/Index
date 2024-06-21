@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex; /* Usa flexbox para os itens do container */
+    justify-content: space-between; /* Alinha os itens lado a lado com espaçamento entre eles */
+    max-width: 1200px; /* Define a largura máxima do container */
+    margin: 20px auto; /* Centraliza o container na página com margens superior e inferior de 20px */
+    padding: 20px; /* Espaçamento interno do container */
+    background-color: #fff; /* Cor de fundo do container */
+    border-radius: 8px; /* Cantos arredondados do container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra do container */
+}
+
+.item {
+    flex: 1; /* Faz os itens crescerem igualmente para ocupar o espaço disponível */
+    padding: 10px; /* Espaçamento interno dos itens */
+    text-align: center; /* Centraliza o texto dentro dos itens */
+    background-color: #f0f0f0; /* Cor de fundo dos itens */
+    border: 1px solid #ccc; /* Borda dos itens */
+    border-radius: 4px; /* Cantos arredondados dos itens */
+}
