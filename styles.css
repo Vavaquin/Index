@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -304,7 +305,7 @@ ul {
 
 @media screen and (max-width:1020px){
     section{
-        max-width: 81%;
+        max-width: 300px;
 
         margin-left: 3%;
         margin-right: 6%;
