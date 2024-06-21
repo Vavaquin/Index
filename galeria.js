@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const gallery = document.querySelector(".gallery");
 
     // Array de URLs das imagens externas
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "https://cdna.artstation.com/p/assets/images/images/076/882/366/large/vavaquin-sapor2-export.jpg?1718050472",
         "https://cdna.artstation.com/p/assets/images/images/076/881/852/large/vavaquin-fror-export.jpg?1718049632",
         "https://cdnb.artstation.com/p/assets/images/images/076/881/753/large/vavaquin-raposar-export.jpg?1718049471"
-        
+
         // Adicione mais URLs conforme necessário
     ];
 
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
         images.forEach(imageUrl => {
             const imgElement = document.createElement("img");
             imgElement.src = imageUrl;
-            imgElement.alt = "Imagem"; // Defina um texto alternativo adequado
+            // imgElement.alt = "Imagem"; // Defina um texto alternativo adequado
             imgElement.classList.add("gallery-image"); // Adiciona uma classe para estilização CSS
             gallery.appendChild(imgElement);
         });

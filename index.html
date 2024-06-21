@@ -1,130 +1,205 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vavaquin</title>
-    <link rel="stylesheet" href="styles.css">
-    
+    <title>VAVAQUIN</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <img src="images/vavaquingif.gif" alt="">
+    <header class="flex-center">
+        <img src="images/vavaquingif.gif">
         <nav>
             <ul>
                 <li><a href="https://vavaquin.github.io/Main/">About me</a></li>
-                <li><a href="#projetos">Project´s</a></li>
+                <li><a href="#projetos">Projects</a></li>
+                <li><a href="#comissions">Comissions</a></li>
                 <li><a href="#contato">Contact</a></li>
+
             </ul>
         </nav>
     </header>
-    <div class="Espaço">
-        <img class="banner" src="images/baner1.png" alt="">
-        <img class="banner2" src="images/baner2.png" alt="">
+
+    <div class="banner flex-center">
+        <img src="images/bane/1.png">
+        <img src="images/bane/2.png">
+        <img src="images/bane/3.png">
+        <img src="images/bane/4.png">
+        <img src="images/bane/5.png">
+        <img src="images/bane/6.png">
     </div>
-    <img class="baseimg2" src="images/400.png" alt="">
-    <img class="baseimg" src="images/800.png" alt="">
 
-    <section id="flex">
-        <h2 class="text2">About me</h2>
-        <div class="item">
-            <p class="texto">I am a pixel artist. Since the beginning of 2023, I have been exploring the fascinating world of pixel art, transforming my passion for games into visual creations.</p>
-            <img class="Slime" src="images/srime.gif" alt="">
+    <main class="flex-center">
 
+        <section id="about">
+            <div class="card-header">
+                <h2>About me</h2>
+            </div>
+            <div class="card">
+                <div class="card-item">
+                    <p class="about-text">
+                        I am a pixel artist. Since the beginning of 2023, I have been exploring the fascinating world of
+                        pixel art, transforming my passion for games into visual creations.
+                    </p>
+                </div>
+                <div class="card-item">
+                    <img class="about-img" src="images/srime.gif">
+                </div>
+            </div>
+        </section>
 
-            
-        </div>
-        <div class="item">
+        <section id="projetos">
+            <div class="card-header">
+                <h2>Projects</h2>
+            </div>
+            <div class="card">
+                <div class="card-item">
+                    <h3><strong>Shadow in the dungeon</strong></h3>
+                    <br>
+                    <p>
+                        This project is a concept for a turn-based RPG game, where the player explores dungeons composed
+                        of multiple floors and rooms. Each room offers access to two others, allowing the player to
+                        choose their path after each battle or event. The rooms are numbered, like 'Room 4, 5, 10', and
+                        each floor has a specific number of rooms as shown in the image.
+                    </p>
+                    <br>
+                    <p>
+                        The project is influenced by Buriedborne, Albion Online, and Dark and Darker. This high-risk MMO
+                        turn-based RPG severely penalizes player defeat, resulting in the loss of all their items.
+                    </p>
+                    <br>
+                    <p>
+                        >>> Click on the image for more information >>>
+                    </p>
+                </div>
+                <div class="card-item">
+                    <a class="flex-center" href="https://vavaquin.github.io/Shadow-In-the-Dungeon/">
+                        <img src="images/cachorreira.png">
+                    </a>
+                </div>
+            </div>
+        </section>
 
-        </div>
-        
-    </section>
-    <img class="baseimg2" src="images/400.png" alt="">
-    <img class="baseimg" src="images/800.png" alt="">
-    <section id="projetos">
-        <h2 class="text2">Projects</h2>
-        <div class="item">
-            <p class="texto2"><Strong>Shadow in the dungeon</Strong><br><br>This project is a concept for a turn-based RPG game, where the player explores dungeons composed of multiple floors and rooms. Each room offers access to two others, allowing the player to choose their path after each battle or event. The rooms are numbered, like 'Room 4, 5, 10', and each floor has a specific number of rooms as shown in the image.<br><br><br>The project is influenced by Buriedborne, Albion Online, and Dark and Darker. This high-risk MMO turn-based RPG severely penalizes player defeat, resulting in the loss of all their items. <br><br>  >>>Click on the image for more information>>></p>
-            <a href="https://vavaquin.github.io/Shadow-In-the-Dungeon/">
-                <img class="img22" src="images/cachorreira.png" alt="">
-                
-            </a>
-
-
-            
-  
-    </section>
-    <img class="baseimg2" src="images/400.png" alt="">
-    <img class="baseimg" src="images/800.png" alt="">
-    <section id="Galeria">
-        <a class="link" href="https://www.artstation.com/vavaquin"><h2 class="text2">Artstation Arts</h2></a>
-        <div class="projeto">
+        <section id="galeria">
+            <div class="card-header">
+                <h2><a href="https://www.artstation.com/vavaquin">Artstation Arts</a></h2>
+            </div>
             <div class="gallery"></div>
-            <script src="galeria.js"></script>
+        </section>
 
-  
-        </div>
-    </section>
-    <img class="baseimg2" src="images/400.png" alt="">
-    <img class="baseimg" src="images/800.png" alt="">
+        <section id="comissions">
+            <div class="card-header">
+                <h2>Comissions</h2>
+            </div>
+            <div class="card">
+                <div class="card-item">
+                    <div class="titulo-texto"><h3><strong class="titulo-texto">34x</strong></h3></div>
+                    
+                    <br>
+                    <p>
+                        Pixel arts of 32x32, 36x36, 
+                        and 37x37 pixels are quite common due to their simplicity and extreme usability. 
+                        These dimensions are emblematic of the "Pixel Art" style because of their low pixel count,
+                        which does not diminish their elegance.
+                    </p>
+                    <br><br>
+                    <p>How much does it cost?</p><br>
+                    <p>
+                        34x = $15
+                    </p>
+                    <br>
+                    <br><br>
+                    <p>
+                        "It is worth noting that Twitch uses a standard of 28x28 pixels and its multiples x56 and x112"
+                    </p>
+                </div>
+                <div class="card-item">
+                    <img class="flex-center" src="https://cdnb.artstation.com/p/assets/images/images/076/881/753/large/vavaquin-raposar-export.jpg?1718049471">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-item">
+                    <div class="titulo-texto"><h3><strong class="titulo-texto">64x</strong></h3></div>
+                    <br>
+                    <p>
+                        Pixel arts of 56x56, 64x64, and 66x66 pixels are more detailed, 
+                        making them suitable for portraits and elements that require greater detail. 
+                        They are widely used because they manage to combine richness in detail with the 
+                        simplicity characteristic of pixel art.
+                    </p>
+                    <br>
+                    <p>
+                        How much does it cost?
+                    </p>
+                    <br>
+                    <p>
+                        64x = 20$
+                    </p>
+                </div>
+                <div class="card-item">
+                    <img class="flex-center" src="https://cdna.artstation.com/p/assets/images/images/077/266/446/large/vavaquin-jinh-roh.jpg?1718989264">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-item">
+                    <div class="titulo-texto"><h3><strong class="titulo-texto">128x</strong></h3></div>
+                    <br>
+                    <p>
+                        Pixel arts of 128x128 pixels are especially good for representing full-body characters. 
+                        If 64x64 pixels are a good parameter for creating portraits, 
+                        128x128 pixels are ideal for drawing a character's or 
+                        for creating even more detailed and refined portraits.
+                    </p>
+                    <br>
+                    <p>
+                        How much does it cost?
+                    </p>
+                    <br>
+                    <p>
+                        128x = 45$
+                    </p>
+                </div>
+                <div class="card-item">
+                    <img class="flex-center" src="https://cdna.artstation.com/p/assets/images/images/076/882/406/large/vavaquin-bx-to-the-bone-pararararam.jpg?1718050542">
+                </div>
 
-    <section id="contato">
-        <h2 class="text2">Contact</h2>
-        <ul class="example-2">
-            <li class="icon-content">
-              <a
-                href="https://linkedin.com/"
-                aria-label="LinkedIn"
-                data-social="linkedin"
-              >
-                <div class="filled"></div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-linkedin"
-                  viewBox="0 0 16 16"
-                  xml:space="preserve"
-                >
-                  <path
-                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </a>
-              <div class="tooltip">LinkedIn</div>
-            </li>
-            </li>
-            <li class="icon-content">
-              <a
-                href="https://www.instagram.com/vavaquin/"
-                aria-label="Instagram"
-                data-social="instagram"
-              >
-                <div class="filled"></div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-instagram"
-                  viewBox="0 0 16 16"
-                  xml:space="preserve"
-                >
-                  <path
-                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </a>
-              <div class="tooltip">Instagram</div>
-          </ul>
-          
-        </div>
-    </section>
+            </div>
 
+        </section>
 
+        <section id="contato">
+            <div class="card-header">
+                <h2>Contact</h2>
+            </div>
+            <div class="card">
+                <ul class="contacts-list flex-center">
+                    <li class="icon-content">
+                        <a href="https://x.com/Vavaquin" aria-label="LinkedIn" data-social="linkedin">
+                            <div class="filled"></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 24 24" xml:space="preserve">
+                                <path d="M8 2H1L9.26086 13.0145L1.44995 21.9999H4.09998L10.4883 14.651L16 22H23L14.3917 10.5223L21.8001 2H19.1501L13.1643 8.88578L8 2ZM17 20L5 4H7L19 20H17Z" fill="currentColor"></path>
+                            </svg>
+                        </a>
+                        <div class="tooltip">LinkedIn</div>
+                    </li>
+                    <li class="icon-content">
+                        <a href="https://www.instagram.com/vavaquin/" aria-label="Instagram" data-social="instagram">
+                            <div class="filled"></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16" xml:space="preserve">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" fill="currentColor"></path>
+                            </svg>
+                        </a>
+                        <div class="tooltip">Instagram</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="bordaCards.js"></script>
+    <script src="galeria.js"></script>
 </body>
+
 </html>
