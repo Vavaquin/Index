@@ -304,10 +304,10 @@ ul {
 
 @media screen and (max-width:1020px){
     section{
-        max-width: 70%;
+        max-width: 81%;
 
-        margin-left: 6%;
-        margin-right: 0%;
+        margin-left: 3%;
+        margin-right: 6%;
 
     }
     .banner{
@@ -316,15 +316,15 @@ ul {
     .banner2{
         display: block;
         max-width: 320px;
-        margin-left: 6%;
+        margin-left: 3%;
     }
     header{
-        margin-left: 5%;
+        margin-left: 3%;
         margin-right: 0%;
         width: 340px;
     }
     .Espaço{
-        margin-left: 6%;
+        margin-left: 3%;
         margin-right: 0%;
         max-width: 320px;
     }
@@ -342,7 +342,7 @@ ul {
         display: block;
         padding-top: 9%;
 
-        margin-left: 6%;
+        margin-left: 3%;
         margin-right: 6%;
         margin-bottom: -170px;
         width: 368px;
