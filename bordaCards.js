@@ -21,3 +21,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
     loadBorder(document.querySelectorAll('.card-header'));
 });
+
+// Script feito pelo Horonoa
