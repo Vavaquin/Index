@@ -41,6 +41,8 @@ img {
 a {
     color: var(--clr-link);
     text-decoration: none;
+    font-size: larger;
+    color: var(--clr-border);
 }
 
 ul {
@@ -149,6 +151,17 @@ section .card-border-bl {
     width: 6px;
     height: 34px;
     left: -2px;
+}
+
+a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+    color: aliceblue;
+}
+
+.texto22{
+    text-align: center;
 }
 
 section .card-border-br {
