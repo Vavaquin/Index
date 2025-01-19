@@ -225,3 +225,14 @@ coisas não muito necessarias */
     text-align: center;
     width: 50%;
 }
+@media screen and (max-width: 799px){
+    .text2{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        font-size:x-large;
+        text-align: center;
+        width: 100%;
+    }
+}
