@@ -162,7 +162,6 @@ section h1{
     gap: 5px;
     padding: 10px;
     margin: 0 auto;
-    
 }
 
 .gallery3 img{
@@ -235,4 +234,41 @@ coisas não muito necessarias */
         text-align: center;
         width: 100%;
     }
+}
+
+
+
+
+#image-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#image-modal img {
+    max-width: 90%;
+    max-height: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#close-modal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s, color 0.2s;
+}
+
+#close-modal:hover {
+    color: red;
+    transform: scale(1.2);
 }
