@@ -215,6 +215,19 @@ coisas não muito necessarias */
     border-image-slice: 30 30 30 30;
     border-image-repeat: stretch;
 }
+
+.img2{
+    box-sizing: border-box;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    border-width: 10px;
+    border-style: solid;
+    border-image-source: url(images/testeborda2.png);
+    border-image-slice: 30 30 30 30;
+    border-image-repeat: stretch;
+}
 .text2{
     padding-left: 30px;
     padding-right: 30px;
